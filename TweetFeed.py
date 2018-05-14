@@ -104,7 +104,7 @@ with open(OUTPUT_FILENAME, 'w', newline='') as csvfile:
         TOTAL_TWEETS += USER_TWEETS
         print("  (" + str(RUNNNING_API_COUNT) + " API calls so far)")
 
-if RUNNNING_API_COUNT >= 15000 :
+if RUNNNING_API_COUNT >= 1500 :
     print("%WARNING, so data might be lost due to rate limiting (1500 API calls per 15 minute window);")
     print("          see https://developer.twitter.com/en/docs/basics/rate-limits.html")
 
